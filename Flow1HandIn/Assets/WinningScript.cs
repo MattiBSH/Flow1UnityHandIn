@@ -20,8 +20,10 @@ public class WinningScript : MonoBehaviour
 
   void OnTriggerEnter(Collider collider)
     {
+      if(collider.gameObject.name == "shadow"){
         Debug.Log($"{collider.gameObject.name} just entered the trigger of {gameObject.name}");
         winText.SetActive(true);
         collider.gameObject.transform.position = new Vector3(251.79f, 2.36f, 149.8f);
+      }
     }
 }
