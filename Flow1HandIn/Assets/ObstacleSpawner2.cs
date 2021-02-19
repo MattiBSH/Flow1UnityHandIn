@@ -27,7 +27,6 @@ public class ObstacleSpawner2 : MonoBehaviour
     t = Random.Range(1,3);
     //put spawn in random position
      spawn.transform.position=new Vector3(x, y, z);
-    Debug.Log(x);
     //todo spawn object2
     if (t>1.1)
     {
