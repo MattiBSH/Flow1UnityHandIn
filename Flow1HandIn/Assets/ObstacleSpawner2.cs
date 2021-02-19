@@ -18,7 +18,7 @@ public class ObstacleSpawner2 : MonoBehaviour
      
     time += Time.deltaTime;
  
-     if (time >= 0.8) {
+     if (time >= 0.1) {
        time = 0.0f;
     //make Random x y 
     x = Random.Range(222, 340);
