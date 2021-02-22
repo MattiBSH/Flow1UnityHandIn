@@ -1,8 +1,8 @@
 # Flow1UnityHandIn
 
-5 Lines Mathias
+Lines Mathias
 #
-5 Lines Matti
+Lines Matti
 #
 Mine 3 læringsmål brugt er First Scripting + references (both in code and inspector), Components, Colliders & Triggers.
 Jeg har arbejdet på vulkanen og lavet obstacles som ruller ned af vulkanen random. Det havde den udfordring at man ikke ville havde at de kunne lande på vejen op i playeren uden at han havde chancen for at se den komme først.
