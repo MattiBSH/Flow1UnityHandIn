@@ -2,6 +2,16 @@
 
 Lines Mathias
 #
+Mit arbejde har været været med disse emner: Simple shapes, camera, components, scripting/references, input, colliders/triggers og terrain. I mit afsnit, vil jeg beskrive hvad jeg har lavet på projektet.
+Vulkanens form og struktur, samt banen op af vulkanen, er lavet af mig. I forhold til banen, har jeg, med små skridt, lavet en "set height" på terrænet så der kom en trappelignende truktur op af vulkanen, og det samme med udformingen af indgangen til vulkanen. Texture på terrain og vulkan blev også downloadet og tegnet på.
+
+Nede i vulkanen, er der en sphere med en meshcollider som trigger. Så når spilleren trigger den, skrev jeg et script, så han/hun bliver teleporteret til foden af vulkanen. Foran vil man så kunne se en floating 3d text der siger "you win". Denne funktion fungerer som ønsket, men i fremtiden, ønskes en endnu bedre løsning.
+
+Udfordringen kom da jeg skulle lave en "player", der kunne bevæge sig og kameraet med den. Jeg forsøgte mig med en sphere, kom en rigidbody på og måtte google mig til en tutorial om input og bevægelse. Kuglen bevægede sig derefter. Jeg måtte også se en tutorial om kameraet, som jeg fik til at følge player, og fik musen til at panoere rundt om playeren. Problemet var, at når jeg bevæger kuglen, er inputtets "nord-øst-syd-vest" retninger, fastslået og kunne ikke få den til at rette sig efter kameraet retning, så fremad altid var fremad i forhold til kameraets synsvinkel. Måtte give op på denne spiller, og vi tog beslutningen om at bruge "shadow" som spiller.
+
+
+
+#
 Lines Matti
 #
 Mine 3 læringsmål brugt er First Scripting + references (both in code and inspector), Components, Colliders & Triggers.
